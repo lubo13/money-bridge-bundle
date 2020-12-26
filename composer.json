@@ -1,0 +1,29 @@
+{
+    "name": "lubo13/money-bridge-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Bridge Bundle for moneyphp/money library",
+    "version": "v1.0.0",
+    "keywords": [
+        "php",
+        "money",
+        "moneyphp",
+        "Symfony"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lubo Grozdanov",
+            "email": "grozdanov.lubo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "moneyphp/money": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Money\\Bridge\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
